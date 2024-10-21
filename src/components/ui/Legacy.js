@@ -52,7 +52,13 @@ const Legacy = () => {
           You&apos;re the Hope of Others.
         </h1>
         <p className="text-gray-700 mt-4 leading-relaxed md:w-[83%]">
-        Bharatdev Foundation is committed to empowering rural communities as well as underprivileged people through education, health, environmental sustainability, awareness of government schemes, and entrepreneurship/business development. Our mission is to foster inclusive growth and improve the quality of life in rural areas and underprivileged people by mobilizing local volunteers and leveraging community resources.
+          Bharatdev Foundation is committed to empowering rural communities as
+          well as underprivileged people through education, health,
+          environmental sustainability, awareness of government schemes, and
+          entrepreneurship/business development. Our mission is to foster
+          inclusive growth and improve the quality of life in rural areas and
+          underprivileged people by mobilizing local volunteers and leveraging
+          community resources.
         </p>
 
         {/* Mission and Vision Section */}

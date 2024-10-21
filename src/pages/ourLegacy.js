@@ -149,7 +149,7 @@ export default function OurLegacy() {
       <section>
         <div className=" pt-5 md:w-9/12 text-center md:text-end ">
           <i className=" md:text-8xl text-7xl  font-Italianno text-gray-400">
-          Bharatdev Foundation 
+            Bharatdev Foundation
           </i>
         </div>
 
@@ -159,9 +159,18 @@ export default function OurLegacy() {
               OUR STORY
             </h1>
             <p className="text-base md:text-xl text-gray-700 mt-4 md:mt-8 leading-relaxed">
-              Bharatdev Foundation is a Section 8 Company (Non-Profit Organization) was founded in September 2024 by Mr. Sandeep Kumar, whose commitment to rural development inspired its creation. Aware of the challenges in education, healthcare, and skill development in villages, Mr. Kumar sought to make a difference. Instead of hosting a grand celebration for his child’s first birthday, he distributed stationary kits to children in government schools of their village, emphasizing his dedication to social welfare.
-              With support from his friends, Bharatdev Foundation was established to focus on empowering rural communities. The foundation aims to drive sustainable progress by improving education, healthcare, and skill-building, fostering a brighter future for all.
-
+              Bharatdev Foundation is a Section 8 Company (Non-Profit
+              Organization) was founded in September 2024 by Mr. Sandeep Kumar,
+              whose commitment to rural development inspired its creation. Aware
+              of the challenges in education, healthcare, and skill development
+              in villages, Mr. Kumar sought to make a difference. Instead of
+              hosting a grand celebration for his child’s first birthday, he
+              distributed stationary kits to children in government schools of
+              their village, emphasizing his dedication to social welfare. With
+              support from his friends, Bharatdev Foundation was established to
+              focus on empowering rural communities. The foundation aims to
+              drive sustainable progress by improving education, healthcare, and
+              skill-building, fostering a brighter future for all.
             </p>
           </div>
           <div className="w-1/2">
@@ -192,10 +201,11 @@ export default function OurLegacy() {
                 <button
                   key={section}
                   onClick={() => setActiveTab(section)}
-                  className={`px-4 md:px-8 py-2 md:py-3 rounded-full font-medium text-base md:text-lg transition-all duration-300 ${activeTab === section
+                  className={`px-4 md:px-8 py-2 md:py-3 rounded-full font-medium text-base md:text-lg transition-all duration-300 ${
+                    activeTab === section
                       ? "bg-primary text-white shadow-md"
                       : "text-gray-600 hover:text-primary"
-                    }`}
+                  }`}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </button>
