@@ -92,7 +92,7 @@ const Navbar = () => {
               className="rounded-full object-cover"
             />
           </Link>
-          <span className="text-white font-bold text-xl ml-3">Sevaarth</span>
+          <span className="text-white font-bold text-xl ml-3">Bharatdev Foundation</span>
         </div>
 
         <div className="hidden md:flex space-x-6 font-bold">

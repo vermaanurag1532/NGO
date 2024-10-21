@@ -46,19 +46,13 @@ const Legacy = () => {
       {/* Text Section */}
       <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8 text-center md:text-left space-y-4">
         <h2 className="text-orange-500 text-xl font-semibold">
-          Welcome To Charius
+          Welcome To Bharatdev Foundation
         </h2>
         <h1 className="text-blue-900 text-3xl md:text-5xl lg:text-6xl font-semibold mt-2">
           You&apos;re the Hope of Others.
         </h1>
         <p className="text-gray-700 mt-4 leading-relaxed md:w-[83%]">
-          Lorem ipsum dolor sit amet consectetur. Volutpat proin id turpis eu
-          neque sit etiam nec quisque. Cras quam dignissim blandit metus laoreet
-          mi ut. Eget diam volutpat ultrices massa morbi sed nibh. Sodales diam
-          eu etiam eu quam nisl viverra. Eget egestas orci felis nisl. Sit diam
-          morbi amet viverra auctor nunc. Feugiat ac amet aliquet euismod ut
-          vel. Mi lectus nisl augue commodo vitae nisi blandit. Venenatis netus
-          suscipit tempus fringilla varius feugiat nulla proin.
+        Bharatdev Foundation is committed to empowering rural communities as well as underprivileged people through education, health, environmental sustainability, awareness of government schemes, and entrepreneurship/business development. Our mission is to foster inclusive growth and improve the quality of life in rural areas and underprivileged people by mobilizing local volunteers and leveraging community resources.
         </p>
 
         {/* Mission and Vision Section */}

@@ -66,8 +66,8 @@ export default function OurLegacy() {
         },
       ],
       paragraphs: [
-        "Sevaarth has a broader mission that goes beyond supporting elderly individuals with household needs. We are committed to empowering women, providing education to underprivileged children, and improving healthcare access for marginalized communities.",
-        "By working together with local leaders and dedicated volunteers, Sevaarth strives to bring positive change across various sectors including health, education, and social empowerment.",
+        "Improving the lives of rural and underprivileged communities by providing education, promoting health and environmental care, spreading awareness of government schemes, and supporting entrepreneurship.",
+        "Our mission is to foster inclusive growth and improve the quality of life in rural areas and underprivileged people by mobilizing local volunteers and leveraging community resources.",
       ],
       achievements: [
         "Established 20 educational centers",
@@ -116,8 +116,8 @@ export default function OurLegacy() {
         },
       ],
       paragraphs: [
-        "At Sevaarth, our vision is to create a society where every individual, regardless of their background, has access to opportunities that allow them to thrive. We envision a future where women are empowered, children are educated, and communities are healthy and self-sufficient.",
-        "Our vision includes fostering a sustainable environment that nurtures growth and equality. By bridging the gap between marginalized groups and essential resources, we aim to create a world where social justice, inclusivity, and equal access are foundational principles.",
+        "To create a self-reliant and empowered society where every rural and underprivileged person has access to quality education, healthcare, sustainable living, and opportunities for economic growth.",
+        "Bharatdev Foundation is committed to empowering rural communities as well as underprivileged people through education, health, environmental sustainability, awareness of government schemes, and entrepreneurship/business development. ",
       ],
       achievements: [
         "Sustainable development model",
@@ -149,7 +149,7 @@ export default function OurLegacy() {
       <section>
         <div className=" pt-5 md:w-9/12 text-center md:text-end ">
           <i className=" md:text-8xl text-7xl  font-Italianno text-gray-400">
-            sevaarth
+          Bharatdev Foundation 
           </i>
         </div>
 
@@ -159,14 +159,9 @@ export default function OurLegacy() {
               OUR STORY
             </h1>
             <p className="text-base md:text-xl text-gray-700 mt-4 md:mt-8 leading-relaxed">
-              Sevaarth is a dedicated initiative that aims to provide essential
-              support to elderly individuals within the community who are facing
-              financial hardships. This project focuses on delivering basic
-              household groceries and other necessary items to ensure that these
-              seniors can maintain a decent standard of living. By addressing
-              their immediate needs, Sevaarth seeks to enhance the quality of
-              life for elderly individuals who may otherwise struggle to access
-              these vital resources.
+              Bharatdev Foundation is a Section 8 Company (Non-Profit Organization) was founded in September 2024 by Mr. Sandeep Kumar, whose commitment to rural development inspired its creation. Aware of the challenges in education, healthcare, and skill development in villages, Mr. Kumar sought to make a difference. Instead of hosting a grand celebration for his child’s first birthday, he distributed stationary kits to children in government schools of their village, emphasizing his dedication to social welfare.
+              With support from his friends, Bharatdev Foundation was established to focus on empowering rural communities. The foundation aims to drive sustainable progress by improving education, healthcare, and skill-building, fostering a brighter future for all.
+
             </p>
           </div>
           <div className="w-1/2">
@@ -197,11 +192,10 @@ export default function OurLegacy() {
                 <button
                   key={section}
                   onClick={() => setActiveTab(section)}
-                  className={`px-4 md:px-8 py-2 md:py-3 rounded-full font-medium text-base md:text-lg transition-all duration-300 ${
-                    activeTab === section
+                  className={`px-4 md:px-8 py-2 md:py-3 rounded-full font-medium text-base md:text-lg transition-all duration-300 ${activeTab === section
                       ? "bg-primary text-white shadow-md"
                       : "text-gray-600 hover:text-primary"
-                  }`}
+                    }`}
                 >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </button>

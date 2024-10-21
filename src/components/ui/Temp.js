@@ -40,12 +40,12 @@ const Hero = () => {
       {/* Centered Text and Button */}
       <div className="relative z-10 text-center text-white">
         <motion.h1
-          className="text-6xl md:text-7xl font-bold mb-4"
+          className="text-3xl md:text-5xl font-bold mb-2"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Empowering Lives
+          शिक्षा, स्वास्थ्य और समृद्धि की ओर एक कदम
         </motion.h1>
         <motion.p
           className="text-xl mb-8"
@@ -53,9 +53,17 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Join Sevaarth in our mission to support the elderly and create lasting
-          positive change in our community.
+          Join Us for holistic development of rural community.
         </motion.p>
+        <motion.a
+          href="/getInvolved" // Redirect to your donation page
+          className="inline-block bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-transform transform hover:scale-110"
+          initial={{ scale: 0.9 }}
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 300 }}
+        >
+          Get Involved
+        </motion.a>
         <motion.a
           href="/donate" // Redirect to your donation page
           className="inline-block bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-transform transform hover:scale-110"
